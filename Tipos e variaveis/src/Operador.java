@@ -1,5 +1,7 @@
 import java.util.Date;
 
+import javax.imageio.ImageTranscoder;
+
 public class Operador {
     public static void main(String[] args) {
 
@@ -45,10 +47,65 @@ public class Operador {
 
         double resultado = (10 * 7) + (20 / 4);
         System.out.println(resultado);
-    }
 
-    public static void (String[] args) {
-        
+        // declementar
+        int numero = 5;
+        System.out.println(numero--);
+        System.out.println(numero);
+
+        // inclementar
+        int numero1 = 5;
+        System.out.println(numero1++);
+        System.out.println(numero1);
+
+        // Inverter variavel boleana
+        boolean variavel = true;
+
+        // inverter !
+        variavel = !variavel;
+
+        System.out.println(variavel);
+
+        // operador ternario falso
+        int a, b;
+        a = 5;
+        b = 6;
+
+        String resultado1 = a == b ? "verdadeiro" : "falso";
+
+        System.out.println(resultado1);
+
+        // operador ternario verdadeiro
+        int a1, b1;
+        a1 = 6;
+        b1 = 6;
+
+        String resultado2 = a1 == b1 ? "verdadeiro" : "falso";
+
+        System.out.println(resultado2);
+
+        // metodo comparacao
+        // operadores relacionais
+        int numero2 = 1;
+        int numero3 = 2;
+
+        boolean simNao = numero2 == numero3;
+
+        System.out.println("numeroDois e igual a numeroTreis?" + simNao);
+
+        simNao = numero2 != numero3;
+
+        System.out.println("numeroDois e diferente a numeroTreis?" + simNao);
+
+        simNao = numero2 > numero3;
+
+        System.out.println("numeroDois e maior que numeroTreis?" + simNao);
+
+        // Comparacao nomes
+        String nomeUm = "Valdemar";
+        String nomeDois = "Valdemar";
+
+        System.out.println(nomeUm == nomeDois);
 
     }
 
