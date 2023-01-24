@@ -107,6 +107,16 @@ public class Operador {
 
         System.out.println(nomeUm == nomeDois);
 
+        // Tabela verdade
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        // expresao logica
+        if (condicao1 && condicao2) {
+            System.out.println("as duas condicoes sao verdadeira");
+        }
+        System.out.println("fim");
     }
 
 }
