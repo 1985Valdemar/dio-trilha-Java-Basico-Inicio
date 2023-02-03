@@ -8,8 +8,11 @@ public class ContaTerminal {
         Scanner sc = new Scanner(System.in);
 
         int numeroConta;
+
         String agencia;
+
         String nomeCliente;
+
         double saldo;
 
         System.out.println("Seja Bem vindo ao BANCO SEU");
