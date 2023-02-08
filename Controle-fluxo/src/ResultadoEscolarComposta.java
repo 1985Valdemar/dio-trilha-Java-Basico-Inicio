@@ -1,6 +1,6 @@
 // CONDICIONAL COMPOSTA MAIS DE UMA VARIAVEL 
 
-public class ResultadoEscolar {
+public class ResultadoEscolarComposta {
     public static void main(String[] args) {
         int nota = 8;
 
