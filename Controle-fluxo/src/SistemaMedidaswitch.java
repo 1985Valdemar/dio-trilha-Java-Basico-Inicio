@@ -1,6 +1,6 @@
 public class SistemaMedidaswitch {
     public static void main(String[] args) {
-        String sigla = "F";
+        String sigla = "P";
 
         switch (sigla) {
             case "P": {
